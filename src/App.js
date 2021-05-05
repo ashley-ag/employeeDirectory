@@ -20,7 +20,7 @@ class App extends Component {
     let employees = this.state.employees.sort();
     console.log("sort last name");
     this.setState({
-      employees: employees
+      employees: [...employees]
     })
   }
 
